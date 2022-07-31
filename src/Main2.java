@@ -12,10 +12,10 @@ public class Main2 {
         System.out.println("\n" + method(arrCh));
     }
     static String method(char[] arr) {
-        String res = "";
+        StringBuilder res = new StringBuilder();
         for (char a: arr) {
-            res = res.concat(String.valueOf(a));
+            res.append(a);
         }
-        return res;
+        return res.toString();
     }
 }
