@@ -5,6 +5,6 @@ public class Student extends Person{
         super(name, age);
     }
     void explain() {
-        System.out.println("ООП бул объектке бакытталган программалоо");
+        System.out.println("OOP is object oriented programming");
     }
 }
